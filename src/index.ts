@@ -2,7 +2,7 @@ import type { Config, Plugin } from "@opencode-ai/plugin";
 import { tool } from "@opencode-ai/plugin";
 import { z } from "zod";
 import { AuthError } from "./auth.js";
-import { openAiWebSearch, SearchApiError } from "./openai.js";
+import { SearchApiError, openAiWebSearch } from "./openai.js";
 import { parsePluginOptions, searchContextSizeSchema } from "./options.js";
 import { ProviderError, resolveSearchTarget } from "./provider.js";
 
