@@ -38,7 +38,7 @@ export function parsePluginOptions(options: Record<string, unknown> | undefined)
   const parsed = pluginOptionsSchema.parse(options ?? {});
   return {
     provider: parsed.provider ?? "openai",
-    toolName: parsed.toolName ?? "websearch",
+    toolName: parsed.toolName ?? "web_search",
     openai: {
       model: parsed.openai?.model ?? process.env.OPENCODE_OPENAI_WEBSEARCH_MODEL ?? DEFAULT_MODEL,
       contextSize: parsed.openai?.contextSize ?? "medium",

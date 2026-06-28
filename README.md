@@ -9,7 +9,7 @@ OpenCode plugin that adds a configurable web search tool for OpenAI Responses-co
       "opencode-websearch",
       {
         "provider": "openai",
-        "toolName": "websearch",
+        "toolName": "web_search",
         "openai": {
           "model": "openai/gpt-5.5",
           "contextSize": "medium"
