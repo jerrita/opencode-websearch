@@ -1,4 +1,4 @@
-# opencode-websearch
+# opencode-qsearch
 
 OpenCode plugin that adds a configurable web search tool for OpenAI Responses-compatible providers.
 
@@ -6,7 +6,7 @@ OpenCode plugin that adds a configurable web search tool for OpenAI Responses-co
 {
   "plugin": [
     [
-      "opencode-websearch",
+      "opencode-qsearch",
       {
         "provider": "openai",
         "toolName": "web_search",
@@ -34,7 +34,7 @@ The model value uses opencode's `provider/model` format. `openai/gpt-5.5` uses o
   },
   "plugin": [
     [
-      "opencode-websearch",
+      "opencode-qsearch",
       {
         "openai": {
           "model": "custom_provider/gpt-5.5"

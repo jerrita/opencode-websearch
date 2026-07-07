@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "opencode-websearch",
-  "version": "0.1.0",
+  "name": "opencode-qsearch",
+  "version": "0.1.1",
   "description": "OpenCode plugin: unified configurable web search tool",
   "type": "module",
   "license": "MIT",
